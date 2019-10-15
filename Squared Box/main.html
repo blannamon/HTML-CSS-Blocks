@@ -1,0 +1,67 @@
+<!-- ВОПРОС: когда цвета задаются в цифровом формате ( напр #333, #123 ) чем меньше цифры тем цвет? -->
+<!-- ОТВЕТ: темнее -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- Is it a bomb?)) -->
+    <!-- <title>Cornered square<b>TEST</b></title> -->
+    <title>Cornered square TEST</title>
+    <style>
+        body{
+            background-color: #444; 
+            font-family: sans-serif;
+            color: #ddd;
+        }
+
+        .BOX{
+            margin: 13px;
+            width: 120px;
+            height: 120px;        
+            border-width: 3px;
+            border-left-style: solid;
+            border-top-style: solid;
+        }
+
+        #box1{
+            border-left-color: #666;
+            border-top-color: #666;
+        }
+
+        #box2{
+            border-left-color: #888;
+            border-top-color: #888;
+        }
+
+        #box3{
+            border-left-color: #aaa;
+            border-top-color: #aaa;
+        }
+
+        #box4{
+            width: 154px;
+            height: 154px;
+            border: 3px solid #ddd;
+            padding: 20px;
+        }
+    
+    </style>
+</head>
+
+<body>
+
+    <div class="BOX" id="box1">
+        <div class="BOX" id="box2">
+            <div class="BOX" id="box3">
+                <div class="BOX" id="box4">
+                    <h1 style="margin: 0;">SQUARED<h2 style="margin: 0;">BOX</h2>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
